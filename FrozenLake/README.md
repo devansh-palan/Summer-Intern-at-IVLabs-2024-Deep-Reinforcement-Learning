@@ -1,7 +1,10 @@
 <h1>Frozen Lake DP Agent</h1>
     <p>This project implements a Dynamic Programming (DP) agent to solve the Frozen Lake environment from OpenAI Gym. The agent learns the optimal policy to navigate through the slippery grid world and reach the goal state while avoiding holes.</p>
 
+    
+
 <h2>Environment Description</h2>
+    <a href="https://gymnasium.farama.org/environments/toy_text/frozen_lake/#frozen-lake" >FrozenLake Documentation</a>
     <p><strong>Frozen Lake</strong> is a grid-world environment where:</p>
     <ul>
         <li>The agent starts in the top-left corner (S) and must reach the goal (G) in the bottom-right corner.</li>
@@ -103,11 +106,6 @@ If Δ &lt; θ, stop iteration</code></pre>
         <pre><code>pip install gym numpy matplotlib</code></pre>
     </div>
 
-<h2>Usage</h2>
-    <p>Run the main script to train the agent and see its performance:</p>
-    <div class="code-block">
-        <pre><code>python frozen_lake_dp.py</code></pre>
-    </div>
 
 <p>You can modify the following parameters in the script:</p>
     <ul>
@@ -116,37 +114,7 @@ If Δ &lt; θ, stop iteration</code></pre>
         <li><code>algorithm</code>: 'policy_iteration' or 'value_iteration'</li>
     </ul>
 
-<h2>File Structure</h2>
-    <ul>
-        <li><code>frozen_lake_dp.py</code>: Main script containing the DP algorithms and training loop</li>
-        <li><code>utils.py</code>: Utility functions for rendering and plotting</li>
-        <li><code>requirements.txt</code>: List of required Python packages</li>
-    </ul>
+<img src="https://media.discordapp.net/attachments/1246167874154790913/1260676295516487850/No._of_steps_vs_episode.png?ex=670a228b&is=6708d10b&hm=dbede62f412343d3de66020f5f139df03c5509354f6508f3c875763c78323ddf&=&format=webp&quality=lossless&width=753&height=565">
 
-<h2>Implementation Details</h2>
-    <ul>
-        <li><strong>State-Value Function (V)</strong>: Represents the expected return starting from a state.</li>
-        <li><strong>Action-Value Function (Q)</strong>: Represents the expected return starting from a state and taking a specific action.</li>
-        <li><strong>Policy</strong>: A mapping from states to actions.</li>
-        <li><strong>Discount Factor (gamma)</strong>: Balances immediate and future rewards (default: 0.99).</li>
-        <li><strong>Convergence Threshold</strong>: Determines when to stop iterating (default: 1e-8).</li>
-    </ul>
+<img src="https://media.discordapp.net/attachments/1246167874154790913/1260676295742718115/return_vs_episode.png?ex=670a228b&is=6708d10b&hm=8214ce2caaa187b95e5a694369b4865e87a943c4e5ea38ca68569472aa57ca14&=&format=webp&quality=lossless&width=753&height=565">
 
-<p>The implementation uses NumPy for efficient matrix operations and OpenAI Gym for environment interactions.</p>
-
-<h2>Results and Visualization</h2>
-    <p>The script outputs:</p>
-    <ul>
-        <li>Optimal value function as a heatmap</li>
-        <li>Optimal policy as arrows on the grid</li>
-        <li>Learning curve showing improvement over iterations</li>
-        <li>Average reward and success rate over 1000 episodes</li>
-    </ul>
-
- <h2>Troubleshooting</h2>
-    <p>Common issues and solutions:</p>
-    <ul>
-        <li><strong>"Module not found" error</strong>: Ensure all required packages are installed.</li>
-        <li><strong>Poor performance</strong>: Try adjusting the discount factor or increasing the number of iterations.</li>
-        <li><strong>Slow convergence</strong>: Consider using value iteration instead of policy iteration for faster results.</li>
-    </ul>
