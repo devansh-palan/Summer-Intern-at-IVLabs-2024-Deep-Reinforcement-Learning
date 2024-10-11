@@ -161,5 +161,5 @@ For each step t = T-1, T-2, ..., 0:
  <h2 id="installation">Installation</h2>
  <pre><code>pip install gym minigrid numpy matplotlib</code></pre>
 
-<img src=https://media.discordapp.net/attachments/1279373242267602967/1294270765742690356/MC_steps_Vs_episode.png?ex=670a6714&is=67091594&hm=618dc66cff39e028c736df920a14eb2cccde5b3535841b0b3d11865c0b02643d&=&format=webp&quality=lossless&width=713&height=540">
+<img src="https://media.discordapp.net/attachments/1279373242267602967/1294270765742690356/MC_steps_Vs_episode.png?ex=670a6714&is=67091594&hm=618dc66cff39e028c736df920a14eb2cccde5b3535841b0b3d11865c0b02643d&=&format=webp&quality=lossless&width=713&height=540">
  <img src="https://media.discordapp.net/attachments/1279373242267602967/1294270766036025404/MC_Reward_Vs_Episode.png?ex=670a6715&is=67091595&hm=6484cbbec3d2edff5637f4028638f9cf5ad57bcd1235ca95d2fe8a179c619bd7&=&format=webp&quality=lossless&width=720&height=540">
