@@ -1,10 +1,12 @@
-<h1>Frozen Lake DP Agent</h1>
+<h1>Frozen Lake Dynamic Programming Agent</h1>
     <p>This project implements a Dynamic Programming (DP) agent to solve the Frozen Lake environment from OpenAI Gym. The agent learns the optimal policy to navigate through the slippery grid world and reach the goal state while avoiding holes.</p>
 
     
 
 <h2>Environment Description</h2>
     <a href="https://gymnasium.farama.org/environments/toy_text/frozen_lake/#frozen-lake" >FrozenLake Documentation</a>
+    
+
     <p><strong>Frozen Lake</strong> is a grid-world environment where:</p>
     <ul>
         <li>The agent starts in the top-left corner (S) and must reach the goal (G) in the bottom-right corner.</li>
