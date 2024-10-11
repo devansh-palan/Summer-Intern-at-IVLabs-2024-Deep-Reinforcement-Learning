@@ -67,4 +67,4 @@
     </ul>
 
    <h2>Installation</h2>
-    <pre><code>pip install vizdoom stable-baselines3[extra] torch gymnasium numpy matplotlib</code></pre>
+    <pre><code>pip install vizdoom stable-baselines3[extra] torch gym[box2d] numpy matplotlib</code></pre>
