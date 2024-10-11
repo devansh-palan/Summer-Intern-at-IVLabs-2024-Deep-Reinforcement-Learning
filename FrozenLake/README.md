@@ -7,7 +7,7 @@
     <a href="https://gymnasium.farama.org/environments/toy_text/frozen_lake/#frozen-lake" >FrozenLake Documentation</a>
     
 
-    <p><strong>Frozen Lake</strong> is a grid-world environment where:</p>
+<p><strong>Frozen Lake</strong> is a grid-world environment where:</p>
     <ul>
         <li>The agent starts in the top-left corner (S) and must reach the goal (G) in the bottom-right corner.</li>
         <li>The grid contains frozen tiles (F) and holes (H).</li>
