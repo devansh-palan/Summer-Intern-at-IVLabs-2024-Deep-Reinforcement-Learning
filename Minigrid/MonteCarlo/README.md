@@ -1,30 +1,12 @@
 <h1>MiniGrid Environment - Monte Carlo Agent</h1>
 
-<h2>Table of Contents</h2>
-    <ul>
-        <li> Introduction</a></li>
-        <li> Environment Description</a></li>
-        <li> Monte Carlo Approach</a>
-            <ul>
-                <li> Monte Carlo Prediction</a></li>
-                <li> Monte Carlo Control</a></li>
-            </ul>
-        </li>
-        <li> Requirements</a></li>
-        <li> Installation</a></li>
-        <li> Usage</a></li>
-        <li> File Structure</a></li>
-        <li> Implementation Details</a></li>
-        <li> hResults and Visualization</a></li>
-        <li> Troubleshooting</a></li>
-        <li> Contributing</a></li>
-        <li> License</a></li>
-    </ul>
 
 <h2 id="introduction">Introduction</h2>
     <p>This project implements a Monte Carlo agent to solve various environments in <strong>MiniGrid</strong>, a minimalistic gridworld package for OpenAI Gym. The agent learns the optimal policy through repeated interactions with the environment using Monte Carlo methods.</p>
 
 <h2 id="environment-description">Environment Description</h2>
+
+   <a href="https://minigrid.farama.org/environments/minigrid/EmptyEnv/">Documentation</a>
     <p>MiniGrid is a simple, lightweight environment for fast prototyping of reinforcement learning algorithms. It features:</p>
     <ul>
         <li>A grid-world environment with various tasks</li>
@@ -178,3 +160,6 @@ For each step t = T-1, T-2, ..., 0:
 
  <h2 id="installation">Installation</h2>
  <pre><code>pip install gym minigrid numpy matplotlib</code></pre>
+
+<img src="C:\Users\Devansh Palan\Downloads\MC steps Vs episode.png">
+ <img src="C:\Users\Devansh Palan\Downloads\MC Reward Vs Episode.png">
