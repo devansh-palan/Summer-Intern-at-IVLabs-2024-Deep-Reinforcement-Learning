@@ -6,6 +6,8 @@
     <p>This project implements a reinforcement learning agent to play various scenarios in the VizDoom environment using Stable-Baselines3. The agent learns to navigate and combat in a 3D environment using state-of-the-art RL algorithms.</p>
 
 <h2>Environment Description</h2>
+
+<a href="https://github.com/Farama-Foundation/ViZDoom">Documentation</a>
     <p>VizDoom is a Doom-based AI research platform for reinforcement learning from raw visual information. It allows developing AI bots that play Doom using only the screen buffer. Key features include:</p>
     <ul>
         <li>3D first-person perspective</li>
