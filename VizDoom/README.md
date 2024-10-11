@@ -1,6 +1,6 @@
 <h1>VizDoom Environment - Training with Stable-Baselines3</h1>
 
-    
+<img src="https://media.discordapp.net/attachments/1279373242267602967/1294378020601073786/The-basic-scenario-used.png?ex=670acaf8&is=67097978&hm=74237d5288ed4539f907182ae4e38d5f888e9c11cb2bd5d43179c60b3a02c59d&=&format=webp&quality=lossless&width=753&height=565">
 
 <h2>Introduction</h2>
     <p>This project implements a reinforcement learning agent to play various scenarios in the VizDoom environment using Stable-Baselines3. The agent learns to navigate and combat in a 3D environment using state-of-the-art RL algorithms.</p>
