@@ -26,7 +26,7 @@
     <p>
     Policy Iteration alternates between policy evaluation and policy improvement steps to converge to the optimal policy. Here's a detailed breakdown of the algorithm:
 
-    Initialization:
+Initialization:
 
 Initialize a random policy π
 Initialize the value function V(s) = 0 for all states s
