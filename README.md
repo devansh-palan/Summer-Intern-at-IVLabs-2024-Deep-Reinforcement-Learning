@@ -66,7 +66,7 @@
 
    <h2>Task 3 - Training an agent in the ViZDoom Environment</h2>
 
-   <img src="https://raw.githubusercontent.com/Farama-Foundation/ViZDoom/master/docs/_static/img/vizdoom-demo.gif">
+   <img src="https://raw.githubusercontent.com/Farama-Foundation/ViZDoom/master/docs/_static/img/vizdoom-demo.gif" height=300px width=300px>
     <ul>
         <li><strong>Algorithm:</strong> Deep Q-Network (DQN)</li>
         <li><strong>Environment:</strong> ViZDoom (a 3D first-person shooter environment)</li>
