@@ -67,21 +67,17 @@
    <h2>Task 3 - Training an agent in the ViZDoom Environment</h2>
 
    <img src="https://raw.githubusercontent.com/Farama-Foundation/ViZDoom/master/docs/_static/img/vizdoom-demo.gif" >
+     <h1>Proximal Policy Optimization (PPO) in ViZDoom</h1>
+    <h2>Objective</h2>
+    <p>To train agents to navigate a complex 3D environment, eliminate enemies, collect resources, and survive using two popular reinforcement learning algorithms: DQN and PPO.</p>
+    
+<h2>Implementation</h2>
     <ul>
-        <li><strong>Algorithm:</strong> Deep Q-Network (DQN)</li>
-        <li><strong>Environment:</strong> ViZDoom (a 3D first-person shooter environment)</li>
-        <li><strong>Objective:</strong> To train agents to navigate a complex 3D environment, eliminate enemies, collect resources, and survive using two popular reinforcement learning algorithms: DQN and PPO.</li>
-        <li><strong>Implementation:</strong>
-            <ul>
-                <li><strong>Neural Network Architecture:</strong> DQN uses a CNN to process game frames and predict Q-values for each possible action.</li>
-                <li><strong>Advantage Function:</strong> PPO uses a combination of the reward and the value function to compute the advantage for updating the policy.</li>
-                <li><strong>Clipping:</strong> The policy update is clipped to ensure that the new policy does not deviate too much from the old policy.</li>
-                <li><strong>Training:</strong> The agent collects experiences by interacting with the environment, then updates the policy and value networks based on the collected data.</li>
-            </ul>
-        </li>
-        <li><strong>Results:</strong>
-            <ul>
-                <li><strong>DQN:</strong> Typically, DQN performs well in discrete action spaces and learns stable policies after sufficient training. It may take longer to converge due to the high-dimensional state space but tends to perform well when trained on simpler tasks (e.g., enemy elimination or navigation).</li>
-            </ul>
-        </li>
+        <li><strong>Neural Network Architecture:</strong> PPO utilizes a policy network and a value network, both commonly structured as fully connected layers or CNNs, to process game frames and output action probabilities and value estimates.</li>
+        <li><strong>Advantage Function:</strong> PPO computes the advantage function using the difference between the estimated value and the observed rewards, allowing for effective updates of the policy.</li>
+        <li><strong>Clipping:</strong> The policy update incorporates a clipping mechanism to limit the change in the probability ratios, ensuring that updates are stable and do not deviate significantly from previous policies.</li>
+        <li><strong>Training:</strong> The agent collects experiences by interacting with the environment, using these experiences to calculate advantages, then updates the policy and value networks based on the collected data while applying the clipping mechanism.</li>
     </ul>
+    
+   <h2>Results</h2>
+    <p>PPO generally excels in continuous action spaces and exhibits good sample efficiency. It learns robust policies more quickly than DQN due to its ability to handle large state spaces and its effective use of the advantage function. PPO tends to perform well across a variety of tasks, such as resource collection and enemy engagement, showing adaptability in complex environments like ViZDoom.</p>
