@@ -87,7 +87,6 @@ def policy_improvement(P, nS, nA, value_from_policy, policy, gamma=0.9):
     new_policy = np.zeros(nS, dtype='int')
 
     ############################
-    # YOUR IMPLEMENTATION HERE #
     
     for state in range(nS):
         q_values = np.zeros(nA)
@@ -195,7 +194,7 @@ def render_single(env, policy, max_steps=100):
         env.render()
         # time.sleep(0.25)
         a = policy[ob]
-        ob, rew, done, _ ,_= env.step(a)       # remove a blank after done if on Colab 
+        ob, rew, done, _ ,_= env.step(a)       
         # print(ob)
         steps += 1
         episode_reward += rew
