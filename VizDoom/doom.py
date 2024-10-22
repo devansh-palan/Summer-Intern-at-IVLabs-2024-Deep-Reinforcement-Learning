@@ -22,7 +22,7 @@ class CustomVizdoom(gym.Env):
 				self.observation_space = spaces.Box(low=0, high=255,
 													shape=(3,240,320), dtype=np.uint8)
 				self.game.load_config('scenarios/basic.cfg')
-				self.game.set_window_visible(True)
+				self.game.set_window_visible(False)
 				self.game.init()
 	
 
@@ -68,10 +68,10 @@ model=PPO("CnnPolicy",env,verbose=1,tensorboard_log=logdir)
 timesteps=1000
 
 episodes=50
-# for step in range(episodes):
+for step in range(episodes):
 	    
-# 		model.learn(total_timesteps=timesteps,reset_num_timesteps=False,tb_log_name="PPO")
-# 		model.save(f"{models_dir}/{timesteps*step}")
+ 		model.learn(total_timesteps=timesteps,reset_num_timesteps=False,tb_log_name="PPO")
+		model.save(f"{models_dir}/{timesteps*step}")
 
 
 env.close()
