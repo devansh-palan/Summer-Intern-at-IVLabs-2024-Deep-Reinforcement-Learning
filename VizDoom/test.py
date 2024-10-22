@@ -4,7 +4,7 @@ import time
  
 from doom import CustomVizdoom
 
-model = PPO.load("/home/devansh/Desktop/ivlabs/ViZDoom/MODELS/PPO/49000.zip")
+model = PPO.load("/home/devansh/Desktop/ivlabs/ViZDoom/MODELS/PPO/49000.zip") #set  the window visible to false and comment out the learning loop
 env=CustomVizdoom()
 total_reward = 0 
 for eps in range(10):
