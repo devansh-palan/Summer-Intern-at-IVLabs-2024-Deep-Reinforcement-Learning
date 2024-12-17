@@ -117,7 +117,7 @@ If Δ &lt; θ, stop iteration</code></pre>
         <li><code>algorithm</code>: 'policy_iteration' or 'value_iteration'</li>
     </ul>
 
-<img src="https://raw.githubusercontent.com/devansh-palan/Summer-Intern-at-IVLabs-2024-Deep-Reinforcement-Learning/refs/heads/main/episode_vs_reward_frozen_lake.webp">
+<img src="https://github.com/devansh-palan/doom/raw/main/episode_vs_reward_frozen_lake.webp">
 
-<img src="https://raw.githubusercontent.com/devansh-palan/Summer-Intern-at-IVLabs-2024-Deep-Reinforcement-Learning/refs/heads/main/stepsize_vs_episode_frozen_lake.webp" width="600px">
+<img src="https://github.com/devansh-palan/doom/raw/main/stepsize_vs_episode_frozen_lake.webp" width="600px">
 
