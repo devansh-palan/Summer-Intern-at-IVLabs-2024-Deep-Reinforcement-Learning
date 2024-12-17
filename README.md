@@ -4,7 +4,7 @@
 <p>This repository contains the work I completed during my summer internship focused on Deep Reinforcement Learning (DRL). Over the course of the internship, I implemented, trained, and evaluated several reinforcement learning algorithms in various environments. My goal was to understand how different algorithms performed in various settings, experiment with hyperparameters, and gain hands-on experience in building and training agents in both classical and complex environments.</p>
 
 <h2>Task 1 - Training an agent in the FrozenLake Environment by Dynamic Programming</h2>
-                     <img src="https://gymnasium.farama.org/_images/frozen_lake.gif" height=300px width=300px>
+                     <img src="https://camo.githubusercontent.com/2ec3bee2bceafb626a446a0320eefedd658a2b4dae593c82754f087ef5b83795/68747470733a2f2f696d6775722e636f6d2f423575793361492e676966" height=300px width=300px>
    <ul>
         <li><strong>Algorithm:</strong> Dynamic Programming</li>
         <li><strong>Environment:</strong> FrozenLake (from OpenAI Gym)</li>
@@ -20,7 +20,7 @@
 
    <h2>Task 2 - Training an agent in the MiniGrid Environment</h2>
 
-<img src="https://minigrid.farama.org/_images/EmptyEnv.gif" height=300px width=300px>
+<img src="https://camo.githubusercontent.com/4c91fc8f5469c3a6bd9fad7c04c2f6297b369cf0db200f26f7e42f31bfd83093/68747470733a2f2f692e696d6775722e636f6d2f346c43774c38672e676966" height=300px width=300px>
   <h3>1. Monte Carlo Policy</h3>
     <ul>
         <li><strong>Algorithm:</strong> Monte Carlo Policy</li>
