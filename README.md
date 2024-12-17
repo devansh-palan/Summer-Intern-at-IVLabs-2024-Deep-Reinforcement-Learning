@@ -66,7 +66,8 @@
 
    <h2>Task 3 - Training an agent in the ViZDoom Environment</h2>
 
-   <img src="https://github.com/devansh-palan/Summer-Intern-at-IVLabs-2024-Deep-Reinforcement-Learning/raw/main/clideo_editor_68da857852f4409dafa7d51cf4cb5545%20(1)%20(1).gif" width="500px">
+   <img src="https://www.dropbox.com/scl/fi/0te9k0z68fqegd5znu5ea/clideo_editor_68da857852f4409dafa7d51cf4cb5545-1-1.gif?rlkey=galbl43qq913vf0n5ctk7gdh6&st=3prl6r0y&raw=1
+   " width="500px">
      <h1>Proximal Policy Optimization (PPO) in ViZDoom</h1>
     <h2>Objective</h2>
     <p>To train agents to navigate a complex 3D environment, eliminate enemies, collect resources, and survive using two popular reinforcement learning algorithms: DQN and PPO.</p>
