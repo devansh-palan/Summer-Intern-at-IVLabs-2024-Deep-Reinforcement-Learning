@@ -76,7 +76,3 @@ For each episode:
 
 <h2>Installation</h2>
     <pre><code>pip install gym minigrid numpy matplotlib</code></pre>
-
-<img src="https://media.discordapp.net/attachments/1279373242267602967/1294371527650836480/Q-learning_Steps_Vs_Episode.png?ex=670ac4ec&is=6709736c&hm=44e4d5a42f1789cd90c96cea1354b083fc91a4910309caae3079ad1d4c9f95a8&=&format=webp&quality=lossless&width=713&height=540">
-
-<img src="https://media.discordapp.net/attachments/1279373242267602967/1294371527311102093/Q-Learning_Reward_Vs_Episode.png?ex=670ac4ec&is=6709736c&hm=f9cfc693f10d035d023332821068d99ade8d6737627d94c96d420189964423cb&=&format=webp&quality=lossless&width=722&height=540">

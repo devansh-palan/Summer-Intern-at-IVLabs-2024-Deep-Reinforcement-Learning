@@ -70,7 +70,3 @@ e(s,a) = γλe(s,a)</code></pre>
 
 <h2>Installation</h2>
     <pre><code>pip install gym minigrid numpy matplotlib</code></pre>
-
-
-<img src="https://media.discordapp.net/attachments/1279373242267602967/1294274992007282709/Copy_of_SARSA_stepVs_Episode2.png?ex=670a6b04&is=67091984&hm=d2ad98d8cc5632b3722e3ab2f750526d1906f62d3bc718640b8f9f56e357694b&=&format=webp&quality=lossless&width=713&height=540">
-<img src="https://media.discordapp.net/attachments/1279373242267602967/1294274991721812031/Copy_of_SARSA_reward_Vs_episode2.png?ex=670a6b04&is=67091984&hm=6bad108246726684f774a44ec8db22a162731d61ae7d109710c598706fe368e8&=&format=webp&quality=lossless&width=722&height=540">

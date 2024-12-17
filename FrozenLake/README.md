@@ -1,7 +1,7 @@
 <h1>Frozen Lake Dynamic Programming Agent</h1>
     <p>This project implements a Dynamic Programming (DP) agent to solve the Frozen Lake environment from OpenAI Gym. The agent learns the optimal policy to navigate through the slippery grid world and reach the goal state while avoiding holes.</p>
 
-<img src="https://gymnasium.farama.org/_images/frozen_lake.gif">
+<img src="https://camo.githubusercontent.com/2ec3bee2bceafb626a446a0320eefedd658a2b4dae593c82754f087ef5b83795/68747470733a2f2f696d6775722e636f6d2f423575793361492e676966" height=300px width=300px>
     
 
 <h2>Environment Description</h2>
@@ -117,7 +117,7 @@ If Δ &lt; θ, stop iteration</code></pre>
         <li><code>algorithm</code>: 'policy_iteration' or 'value_iteration'</li>
     </ul>
 
-<img src="https://media.discordapp.net/attachments/1246167874154790913/1260676295516487850/No._of_steps_vs_episode.png?ex=670a228b&is=6708d10b&hm=dbede62f412343d3de66020f5f139df03c5509354f6508f3c875763c78323ddf&=&format=webp&quality=lossless&width=753&height=565">
+<img src="https://raw.githubusercontent.com/devansh-palan/Summer-Intern-at-IVLabs-2024-Deep-Reinforcement-Learning/refs/heads/main/episode_vs_reward_frozen_lake.webp">
 
-<img src="https://media.discordapp.net/attachments/1246167874154790913/1260676295742718115/return_vs_episode.png?ex=670a228b&is=6708d10b&hm=8214ce2caaa187b95e5a694369b4865e87a943c4e5ea38ca68569472aa57ca14&=&format=webp&quality=lossless&width=753&height=565">
+<img src="https://raw.githubusercontent.com/devansh-palan/Summer-Intern-at-IVLabs-2024-Deep-Reinforcement-Learning/refs/heads/main/stepsize_vs_episode_frozen_lake.webp" width="600px">
 

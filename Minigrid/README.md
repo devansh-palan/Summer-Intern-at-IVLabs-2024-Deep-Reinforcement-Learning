@@ -1,6 +1,6 @@
 <h1>MiniGrid Environment - Action Space and Description</h1>
 
-   <img src="https://minigrid.farama.org/_images/EmptyEnv.gif">
+   <img src="https://camo.githubusercontent.com/4c91fc8f5469c3a6bd9fad7c04c2f6297b369cf0db200f26f7e42f31bfd83093/68747470733a2f2f692e696d6775722e636f6d2f346c43774c38672e676966" height=300px width=300px>
 
 <h2>Action Space</h2>
     <p><strong>Type:</strong> Discrete(7)</p>
@@ -88,3 +88,7 @@
         <li>The agent reaches the goal.</li>
         <li>Timeout (see <strong>max_steps</strong>).</li>
     </ul>
+
+<img src="https://camo.githubusercontent.com/58565c007abc6833ce67aef88ca8f16f4a1f001049e37a6864debb74f2cf1750/68747470733a2f2f692e696d6775722e636f6d2f7370516a6d4f622e706e67 " height="500px" >
+
+<img src="https://camo.githubusercontent.com/d8d56d1bc76b1f947d193d169179d1ae6b49c8cadc79fdc4338c6e036fc1a579/68747470733a2f2f692e696d6775722e636f6d2f6b58614f5464352e706e67" height="500px">

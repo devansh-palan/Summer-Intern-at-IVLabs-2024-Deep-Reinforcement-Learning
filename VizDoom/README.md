@@ -1,6 +1,6 @@
 <h1>VizDoom Environment - Training with Stable-Baselines3</h1>
 
-<img src="https://media.discordapp.net/attachments/1279373242267602967/1294378020601073786/The-basic-scenario-used.png?ex=670acaf8&is=67097978&hm=74237d5288ed4539f907182ae4e38d5f888e9c11cb2bd5d43179c60b3a02c59d&=&format=webp&quality=lossless&width=753&height=565">
+<img src="https://github.com/devansh-palan/Summer-Intern-at-IVLabs-2024-Deep-Reinforcement-Learning/raw/main/clideo_editor_68da857852f4409dafa7d51cf4cb5545%20(1)%20(1).gif" width="500px">
 
 <h1>Doom RL Environment using PPO</h1>
     <p>
@@ -59,9 +59,8 @@
     <pre><code>pip install vizdoom stable-baselines3[extra] torch gym[box2d] numpy matplotlib</code></pre>
 
 
-<img src="https://media.discordapp.net/attachments/1246168053922791537/1296999911409193010/Screenshot_from_2024-10-19_06-16-49.png?ex=6718494b&is=6716f7cb&hm=ff5fc921e266c151b4e305280c21b30a58a6944708e70d8aed469d1f3cb8f723&=&format=webp&quality=lossless&width=1002&height=565"/>
+<img src="https://raw.githubusercontent.com/devansh-palan/Summer-Intern-at-IVLabs-2024-Deep-Reinforcement-Learning/refs/heads/main/Screenshot_from_2024-10-19_06-16-49.webp"/>
 
-<img src="https://media.discordapp.net/attachments/1246168053922791537/1296999911044157480/Screenshot_from_2024-10-19_06-17-03.png?ex=6718494b&is=6716f7cb&hm=62be43dace463c9659d8d63817f571ea924f6a80547ab80b763a79d24f2f7d9b&=&format=webp&quality=lossless&width=1096&height=565"/>
+<img src="https://raw.githubusercontent.com/devansh-palan/Summer-Intern-at-IVLabs-2024-Deep-Reinforcement-Learning/refs/heads/main/Screenshot_from_2024-10-19_06-17-03.webp"/>
 
-<video src="C:\Users\Devansh Palan\Downloads\Screencast from 22-10-24 05_07_57 PM IST.webm" />
 
